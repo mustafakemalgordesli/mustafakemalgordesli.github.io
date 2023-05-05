@@ -1,0 +1,17 @@
+.logotrue {
+  height: 50px;
+  width: 50px;
+}
+
+.logofalse {
+  height: 120px;
+  width: 120px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
