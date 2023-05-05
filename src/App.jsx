@@ -1,9 +1,7 @@
 import { useState } from "react";
 import {
-  DesktopOutlined,
-  FileOutlined,
   HomeOutlined,
-  TeamOutlined,
+  ContactsOutlined,
   UserOutlined,
   GithubFilled,
   LinkedinFilled,
@@ -12,7 +10,12 @@ import {
   TwitterCircleFilled
 } from "@ant-design/icons";
 
-import { Layout, Menu, Image } from "antd";
+import {
+  Link,
+} from "react-router-dom";
+
+
+import { Layout, Menu, Image} from "antd";
 
 const { Content, Sider, Footer } = Layout;
 
@@ -20,32 +23,14 @@ import logo from "./assets/logo.jpg";
 
 import "./App.css"
 
-function getItem(label, key, icon, children) {
-  return {
-    key,
-    icon,
-    children,
-    label,
-  };
-}
-
-const items = [
-  getItem("Home", "1", <HomeOutlined />),
-  getItem("Option 2", "2", <DesktopOutlined />),
-  getItem("User", "sub1", <UserOutlined />, [
-    getItem("Tom", "3"),
-    getItem("Bill", "4"),
-    getItem("Alex", "5"),
-  ]),
-  getItem("Team", "sub2", <TeamOutlined />, [
-    getItem("Team 1", "6"),
-    getItem("Team 2", "8"),
-  ]),
-  getItem("Files", "9", <FileOutlined />),
-];
+import { useLocation } from 'react-router-dom';
 
 const App = () => {
   const [collapsed, setCollapsed] = useState(false);
+
+  let location = useLocation();
+
+  console.log(location)
 
   return (
     <Layout style={{ minHeight: "100vh" }}>
@@ -54,15 +39,18 @@ const App = () => {
         collapsed={collapsed}
         onCollapse={(value) => setCollapsed(value)}
       >
-        <div className={`logo${collapsed}` + " logo"} style={{ marginTop: 10}}>
-          <Image
-            style={{ borderRadius: "50%", marginLeft: "auto", marginRight: "auto" }}
-            preview={false}
-            width={"100%"}
-            height={"100%"}
-            src={logo}
-          />
-        </div>
+        <Link to='/' style={{ }}>
+          <div className={`logo${collapsed}` + " logo"} style={{ marginTop: 10}}>
+            <Image
+              style={{ borderRadius: "50%", marginLeft: "auto", marginRight: "auto" }}
+              preview={false}
+              width={"100%"}
+              height={"100%"}
+              src={logo}
+            />
+          </div>
+        </Link>
+        
         {
           !collapsed && (
             <div style={{ width: "100%", height: 30, paddingLeft: 10, paddingRight: 10, marginBottom: 5, marginTop: 5, display: "flex", alignItems: "center", justifyContent: "space-evenly" }}>
@@ -76,10 +64,20 @@ const App = () => {
         }
         <Menu
           theme="dark"
-          defaultSelectedKeys={["1"]}
+          selectedKeys={[location.pathname]}
           mode="inline"
-          items={items}
-        />
+        >
+          <Menu.Item key="/" icon={<HomeOutlined style={{ fontSize: 20 }}/>}>
+              <Link to='/' style={{ fontSize: 20 }}>Home</Link>
+          </Menu.Item>
+          <Menu.Item key="/about" icon={<UserOutlined style={{ fontSize: 20 }} />}>
+              <Link to='/about' style={{ fontSize: 20 }} >About</Link>
+          </Menu.Item>
+          <Menu.Item key="/contact" icon={<ContactsOutlined style={{ fontSize: 20 }} />}>
+              <Link to='/contact' style={{ fontSize: 20 }}>Contact</Link>
+          </Menu.Item>
+    
+       </Menu>
       </Sider>
       <Layout className="site-layout">
         <Content style={{ margin: "0 16px" }}>
