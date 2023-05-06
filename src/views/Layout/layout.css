@@ -1,0 +1,33 @@
+.logotrue {
+  height: 50px;
+  width: 50px;
+}
+
+.logofalse {
+  height: 120px;
+  width: 120px;
+}
+
+.logoimagefalse {
+  border: solid 5px gray;
+}
+
+.logoimagetrue {
+  border: solid 2px gray;
+}
+
+.menufalse {
+  margin-top: 10px;
+}
+
+.menutrue {
+  margin-top: 2px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
