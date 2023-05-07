@@ -9,7 +9,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="Home" style={{ height: "100%", backgroundColor: "#f4f4f4" }}>
+    <div id="home" className="Home jumbotron" style={{ height: "100%", backgroundColor: "#f4f4f4" }}>
       <Row style={{ height: "100%" }}>
         <Row style={{ width: "100%", height: "30%" }}>
           <Col
@@ -36,9 +36,11 @@ export default function Home() {
                 loop
               />
             </div>
+            <p className="hero-cta load-hidden">
+              <a rel="noreferrer" className="cta-btn cta-btn--hero" href="#about">Know more</a>
+            </p>
           </Col>
         </Row>
-        <Row>deneme</Row>
       </Row>
     </div>
   );

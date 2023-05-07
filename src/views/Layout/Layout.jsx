@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   HomeOutlined,
   ContactsOutlined,
@@ -9,7 +9,7 @@ import {
   MailFilled,
   TwitterCircleFilled,
 } from "@ant-design/icons";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { Layout, Menu, Image } from "antd";
 import { useLocation } from "react-router-dom";
 const { Content, Sider, Footer } = Layout;
@@ -20,14 +20,46 @@ const Layouts = () => {
 
   let location = useLocation();
 
+  const [activeMenuItem, setActiveMenuItem] = useState(location.pathname + location.hash);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const homeElement = document.getElementById('home');
+      const aboutElement = document.getElementById('about');
+      // const servicesElement = document.getElementById('services');
+      const contactElement = document.getElementById('contact');
+
+      if(contactElement && window.pageYOffset >= contactElement.offsetTop) {
+        setActiveMenuItem("/#contact");
+      }
+      else if (aboutElement && window.pageYOffset >= aboutElement.offsetTop) {
+        setActiveMenuItem('/#about');
+      }
+      else if (homeElement && window.pageYOffset >= homeElement.offsetTop && window.pageYOffset < aboutElement.offsetTop) {
+        setActiveMenuItem("/");
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <Layout style={{ minHeight: "100vh" }}>
+    <Layout style={{ minHeight: "100vh"}}>
+
       <Sider
         collapsible
         collapsed={collapsed}
         onCollapse={(value) => setCollapsed(value)}
+        style={{ 
+          overflow: 'auto',
+          height: '100vh',
+          position: 'fixed',
+          left: 0,
+      }}
       >
-        <Link to="/">
+        <a href="#" rel="noreferrer">
           <div
             className={`logo${collapsed}` + " logo"}
             style={{ marginTop: 10 }}
@@ -45,7 +77,7 @@ const Layouts = () => {
               src="/profilephoto.jpg"
             />
           </div>
-        </Link>
+        </a>
 
         {!collapsed && (
           <div>
@@ -113,34 +145,34 @@ const Layouts = () => {
 
         <Menu
           theme="dark"
-          selectedKeys={[location.pathname]}
+          selectedKeys={[activeMenuItem]}
           mode="inline"
           className={`menu${collapsed}`}
         >
           <Menu.Item key="/" icon={<HomeOutlined style={{ fontSize: 15 }} />}>
-            <Link to="/" style={{ fontSize: 15 }}>
+            <a href="#" rel="noreferrer" style={{ fontSize: 15 }}>
               Home
-            </Link>
+            </a>
           </Menu.Item>
           <Menu.Item
-            key="/about"
+            key="/#about"
             icon={<UserOutlined style={{ fontSize: 15 }} />}
           >
-            <Link to="/about" style={{ fontSize: 15 }}>
+            <a  href="#about" rel="noreferrer" style={{ fontSize: 15 }}>
               About
-            </Link>
+            </a>
           </Menu.Item>
           <Menu.Item
-            key="/contact"
+            key="/#contact"
             icon={<ContactsOutlined style={{ fontSize: 15 }} />}
           >
-            <Link to="/contact" style={{ fontSize: 15 }}>
+            <a href="#contact" rel="noreferrer" style={{ fontSize: 15 }}>
               Contact
-            </Link>
+            </a>
           </Menu.Item>
         </Menu>
       </Sider>
-      <Layout className="site-layout">
+      <Layout className={`content${collapsed}` + " site-layout"}>
         <Content style={{ margin: "0px" }}>
           <div
             style={{

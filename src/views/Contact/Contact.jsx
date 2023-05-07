@@ -1,12 +1,8 @@
 export default function About() {
     return (
-        <div id="about" className="About" style={{ backgroundColor: "green"}}>
-        About
-        bout
-        bout
-        
-
-        <br/>
+        <div id="contact" className="Contact" style={{ backgroundColor: "red"}}>
+            Contact
+            <br/>
         <br/>
         <br/>
         <br/>
