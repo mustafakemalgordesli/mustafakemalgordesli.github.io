@@ -22,28 +22,30 @@ const Layouts = () => {
 
   const [activeMenuItem, setActiveMenuItem] = useState(location.pathname + location.hash);
 
-
   useEffect(() => {
-    const handleScroll = () => {
-      const homeElement = document.getElementById('home');
-      const aboutElement = document.getElementById('about');
-      // const servicesElement = document.getElementById('services');
-      const contactElement = document.getElementById('contact');
+    console.log(location)
+    setActiveMenuItem(location.pathname + location.hash);
+  }, [location]);
 
-      if(contactElement && window.pageYOffset >= contactElement.offsetTop) {
-        setActiveMenuItem("/#contact");
-      }
-      else if (aboutElement && window.pageYOffset >= aboutElement.offsetTop) {
-        setActiveMenuItem('/#about');
-      }
-      else if (homeElement && window.pageYOffset >= homeElement.offsetTop && window.pageYOffset < aboutElement.offsetTop) {
+  const handleScroll = () => {
+    const homeElement = document.getElementById('home');
+    const aboutElement = document.getElementById('about');
+    const contactElement = document.getElementById('contact');
+
+
+      if (homeElement && window.pageYOffset >= homeElement.offsetTop && window.pageYOffset < aboutElement.offsetTop) {
         setActiveMenuItem("/");
       }
-    };
+      else if (aboutElement && window.pageYOffset >= aboutElement.offsetTop && window.pageYOffset < contactElement.offsetTop) {
+        setActiveMenuItem('/#about');
+      } 
+      else if(contactElement && window.pageYOffset >= contactElement.offsetTop) {
+        setActiveMenuItem("/#contact");
+      }
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  };
+
+
 
   return (
     <Layout style={{ minHeight: "100vh"}}>
@@ -178,6 +180,7 @@ const Layouts = () => {
             style={{
               height: "100%",
             }}
+            onWheel={handleScroll}
           >
             <Outlet />
           </div>
