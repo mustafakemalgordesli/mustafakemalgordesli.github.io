@@ -6,6 +6,8 @@ import {
   GithubFilled,
   LinkedinFilled,
   InstagramFilled,
+  ProjectOutlined,
+  BranchesOutlined,
   MailFilled,
   TwitterCircleFilled,
 } from "@ant-design/icons";
@@ -162,6 +164,22 @@ const Layouts = () => {
           >
             <a  href="#about" rel="noreferrer" style={{ fontSize: 15 }}>
               About
+            </a>
+          </Menu.Item>
+          <Menu.Item
+            key="/#resume"
+            icon={<BranchesOutlined style={{ fontSize: 15 }} />}
+          >
+            <a href="#resume" rel="noreferrer" style={{ fontSize: 15 }}>
+              Resume
+            </a>
+          </Menu.Item>
+          <Menu.Item
+            key="/#projects"
+            icon={<ProjectOutlined style={{ fontSize: 15 }} />}
+          >
+            <a href="#projects" rel="noreferrer" style={{ fontSize: 15 }}>
+              Projects
             </a>
           </Menu.Item>
           <Menu.Item

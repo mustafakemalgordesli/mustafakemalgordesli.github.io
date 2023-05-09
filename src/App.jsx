@@ -3,6 +3,8 @@ import Home from "./views/Home/Home";
 import Layout from "./views/Layout/Layout"
 import About from "./views/About/About";
 import Contact from "./views/Contact/Contact"
+import Projects from "./views/Projects/Projects";
+import Resume from "./views/Resume/Resume"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
@@ -19,9 +21,11 @@ const App = () => {
 
       <Route index element={
         <div>
-        <Home/>
-        <About />
-        <Contact />
+          <Home/>
+          <About />
+          <Resume />
+          <Projects />
+          <Contact />
         </div>
       } />
           </Route>
