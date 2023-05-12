@@ -26,25 +26,37 @@ const Layouts = () => {
 
   useEffect(() => {
     console.log(location)
-    setActiveMenuItem(location.pathname + location.hash);
+    const resumeHashs = [ "#education" , "#experience", "skills"]
+    let menuText = location.pathname + location.hash 
+    if(resumeHashs.includes(location.hash)) {
+       menuText = location.pathname + "#resume" 
+    } 
+    setActiveMenuItem(menuText);
   }, [location]);
 
   const handleScroll = () => {
     const homeElement = document.getElementById('home');
     const aboutElement = document.getElementById('about');
     const contactElement = document.getElementById('contact');
+    const resumeElement = document.getElementById('resume');
+    const projectsElement = document.getElementById('projects');
 
 
-      if (homeElement && window.pageYOffset >= homeElement.offsetTop && window.pageYOffset < aboutElement.offsetTop) {
-        setActiveMenuItem("/");
-      }
-      else if (aboutElement && window.pageYOffset >= aboutElement.offsetTop && window.pageYOffset < contactElement.offsetTop) {
-        setActiveMenuItem('/#about');
-      } 
-      else if(contactElement && window.pageYOffset >= contactElement.offsetTop) {
-        setActiveMenuItem("/#contact");
-      }
-
+    if (homeElement && window.pageYOffset >= homeElement.offsetTop && window.pageYOffset < aboutElement.offsetTop) {
+      setActiveMenuItem("/");
+    }
+    else if (aboutElement && window.pageYOffset >= aboutElement.offsetTop && window.pageYOffset < resumeElement.offsetTop) {
+      setActiveMenuItem('/#about');
+    } 
+    else if(resumeElement && window.pageYOffset >= resumeElement.offsetTop && window.pageYOffset < projectsElement.offsetTop) {
+      setActiveMenuItem("/#resume");
+    }
+    else if(projectsElement && window.pageYOffset >= projectsElement.offsetTop && window.pageYOffset < contactElement.offsetTop) {
+      setActiveMenuItem("/#projects");
+    }
+    else if(contactElement && window.pageYOffset >= contactElement.offsetTop) {
+      setActiveMenuItem("/#contact");
+    }
   };
 
 
@@ -58,7 +70,7 @@ const Layouts = () => {
         onCollapse={(value) => setCollapsed(value)}
         style={{ 
           overflow: 'auto',
-          height: '100vh',
+          height: "100%",
           position: 'fixed',
           left: 0,
       }}

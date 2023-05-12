@@ -1,0 +1,58 @@
+.title-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content-text {
+  text-align: start;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.content-title-text {
+  text-align: start;
+
+  font-size: 16px;
+}
+
+.btn-text {
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.btn-text:hover {
+  border: 1px solid #00cdac;
+  color: #00cdac;
+}
+
+.btn-span {
+  margin: 0 10px;
+}
+
+.btns a {
+  border: 1px solid gray;
+}
+
+.btns a:hover {
+  color: #00cdac;
+  border: 1px solid #00cdac;
+}
+
+.edu-link {
+  border-bottom: 1px dotted gray;
+  color: gray;
+  text-decoration: none;
+}
+
+.edu-link:hover {
+  border-bottom: 1px dotted blue;
+}
+
+.company-link {
+  border-bottom: 1px dotted gray;
+  text-decoration: none;
+  color: black;
+}
+.company-link:hover {
+  border-bottom: 1px dotted blue;
+}
