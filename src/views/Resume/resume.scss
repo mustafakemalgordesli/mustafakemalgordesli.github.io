@@ -1,6 +1,7 @@
 .title-text {
   font-weight: bold;
   font-size: 20px;
+  text-align: start;
 }
 
 .content-text {
@@ -11,7 +12,7 @@
 
 .content-title-text {
   text-align: start;
-
+  color: gray;
   font-size: 16px;
 }
 
@@ -51,7 +52,7 @@
 .company-link {
   border-bottom: 1px dotted gray;
   text-decoration: none;
-  color: black;
+  color: gray;
 }
 .company-link:hover {
   border-bottom: 1px dotted blue;
