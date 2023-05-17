@@ -9,21 +9,17 @@ export default function Projects() {
           <div className="row project-detail">
             <div className="col-lg-6 col-sm-12">
               <div className="project-wrapper__text load-hidden">
-                <h3 className="project-wrapper__text-title" style={{ fontSize: "20px"}}>Project Title 0</h3>
+                <h3 className="project-wrapper__text-title" style={{ fontSize: "20px"}}>Python Malware</h3>
                 <div>
                   <p className="mb-4">
-                    Describe the project being very specific, you can use the
-                    Twitter standard: no more than 280 characters: complement
-                    the information: the skills learned or reinforced in its
-                    realization and how you faced it, prove to be proactive in
-                    the search for solutions.
+                    This project was developed for python training purposes and was prepared to examine how malware analysis can be done.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://github.com/mustafakemalgordesli/python-malware"
                 >
                   See Live
                 </a>
@@ -31,7 +27,7 @@ export default function Projects() {
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/mustafakemalgordesli/python-malware"
                 >
                   Source Code
                 </a>
@@ -50,7 +46,7 @@ export default function Projects() {
                     <img
                       alt="Project Image"
                       className="img-fluid"
-                      src="assets/project.jpg"
+                      src="/malware-header.jpg"
                     />
                   </div>
                 </a>

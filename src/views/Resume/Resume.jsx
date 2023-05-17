@@ -7,7 +7,6 @@ export default function Projects() {
       className="Resume"
       style={{
         width: "100%",
-        // border: "1px solid black"
       }}
     >
       <div className="container">
@@ -46,15 +45,15 @@ export default function Projects() {
       </div>
 
       <div className="container">
-        <div className="row row-cols-1 row-cols-lg-2">
-          <div className="col">
+        <div className="row">
+          <div className="col-lg-6 col-sm-12">
             <div
               className="container mt-4"
               id="education"
               style={{
                 marginRight: "auto",
                 marginLeft: "auto",
-                maxWidth: 385
+                maxWidth: 385,
               }}
             >
               <div className="row">
@@ -94,15 +93,18 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="container mt-4" id="experience"  style={{
+          <div className="col-lg-6 col-sm-12">
+            <div
+              className="container mt-4"
+              id="experience"
+              style={{
                 marginRight: "auto",
                 marginLeft: "auto",
-                maxWidth: 375
-              }}>
+                maxWidth: 375,
+              }}
+            >
               <div className="row">
                 <div className="col">
-  
                   <h3 className="title-text">EXPERIENCE</h3>
                   <div style={{ marginBottom: 10, paddingTop: 10 }}>
                     <div className="content-title-text">
@@ -120,7 +122,7 @@ export default function Projects() {
                       September 2022 - February 2023
                     </p>
                   </div>
-                  <div style={{ marginBottom: 10,  }}>
+                  <div style={{ marginBottom: 10 }}>
                     <div className="content-title-text">
                       <a
                         rel="noreferrer"
@@ -134,7 +136,6 @@ export default function Projects() {
                     </div>
                     <p className="content-text">June 2022 - August 2022</p>
                   </div>
-      
                 </div>
               </div>
             </div>
