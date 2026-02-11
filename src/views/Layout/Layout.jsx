@@ -215,8 +215,9 @@ const Layouts = () => {
             <Outlet />
           </div>
         </Content>
-        <Footer style={{ backgroundColor: "#f4f4f4", border: "1px solid grey", textAlign: "center", maxHeight: 50, display: "flex", justifyContent: "center", alignItems: "center" }}>
-          ©{new Date().getFullYear()} Created by Mustafa Kemal Gordesli
+        <Footer style={{ backgroundColor: "#f4f4f4", border: "1px solid grey", textAlign: "center", maxHeight: 50, display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 50px" }}>
+          <span>©{new Date().getFullYear()} Created by Mustafa Kemal Gordesli</span>
+          <a href="#/privacy" style={{ color: "#1890ff" }}>Privacy Policy</a>
         </Footer>
       </Layout>
     </Layout>
