@@ -6,12 +6,12 @@ import Contact from "./views/Contact/Contact";
 import Projects from "./views/Projects/Projects";
 import Resume from "./views/Resume/Resume";
 import Privacy from "./views/Privacy/Privacy";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             {/* <Route index element={<Home />} />
@@ -33,7 +33,7 @@ const App = () => {
             <Route path="/privacy" element={<Privacy />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
