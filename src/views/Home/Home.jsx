@@ -1,4 +1,5 @@
-import Typed from "react-typed";
+import { TypeAnimation } from "react-type-animation";
+
 export default function Home() {
   return (
     <section id="home" className="Home jumbotron">
@@ -7,17 +8,19 @@ export default function Home() {
           Hi, my name is <span className="text-color-main">Mustafa Kemal</span>
           <br />
           I&apos;m the &nbsp;
-          <Typed
-                strings={[
-                  "Software Developer",
-                  "Student of Computer Engineering",
-                  "Web Designer",
-                ]}
-                style={{ width: "100%"}}
-                typeSpeed={60}
-                backSpeed={80}
-                loop
-              />
+          <TypeAnimation
+            sequence={[
+              "Software Developer",
+              2000,
+              "Student of Computer Engineering",
+              2000,
+              "Web Designer",
+              2000,
+            ]}
+            wrapper="span"
+            speed={50}
+            repeat={Infinity}
+          />
         </h1>
         <p className="hero-cta load-hidden">
           <a rel="noreferrer" className="cta-btn cta-btn--hero" href="#about">
