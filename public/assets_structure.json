@@ -1,0 +1,1244 @@
+{
+  "categories": [
+    {
+      "name": "animals",
+      "category_image": "categories/animals.png",
+      "assets_folder": "gloo_assets/animals",
+      "assets": [
+        {
+          "name": "bear",
+          "path": "gloo_assets/animals/bear.png",
+          "audio_path": "gloo_audio/animals/bear.mp3",
+          "phonetic": "/bɛr/"
+        },
+        {
+          "name": "bee",
+          "path": "gloo_assets/animals/bee.png",
+          "audio_path": "gloo_audio/animals/bee.mp3",
+          "phonetic": "/bi/"
+        },
+        {
+          "name": "bird",
+          "path": "gloo_assets/animals/bird.png",
+          "audio_path": "gloo_audio/animals/bird.mp3",
+          "phonetic": "/bərd/"
+        },
+        {
+          "name": "cat",
+          "path": "gloo_assets/animals/cat.png",
+          "audio_path": "gloo_audio/animals/cat.mp3",
+          "phonetic": "/kæt/"
+        },
+        {
+          "name": "cow",
+          "path": "gloo_assets/animals/cow.png",
+          "audio_path": "gloo_audio/animals/cow.mp3",
+          "phonetic": "/kaʊ/"
+        },
+        {
+          "name": "dog",
+          "path": "gloo_assets/animals/dog.png",
+          "audio_path": "gloo_audio/animals/dog.mp3",
+          "phonetic": "/dɔg/"
+        },
+        {
+          "name": "duck",
+          "path": "gloo_assets/animals/duck.png",
+          "audio_path": "gloo_audio/animals/duck.mp3",
+          "phonetic": "/dək/"
+        },
+        {
+          "name": "elephant",
+          "path": "gloo_assets/animals/elephant.png",
+          "audio_path": "gloo_audio/animals/elephant.mp3",
+          "phonetic": "/ˈɛləfənt/"
+        },
+        {
+          "name": "fish",
+          "path": "gloo_assets/animals/fish.png",
+          "audio_path": "gloo_audio/animals/fish.mp3",
+          "phonetic": "/fɪʃ/"
+        },
+        {
+          "name": "frog",
+          "path": "gloo_assets/animals/frog.png",
+          "audio_path": "gloo_audio/animals/frog.mp3",
+          "phonetic": "/frɑg/"
+        },
+        {
+          "name": "horse",
+          "path": "gloo_assets/animals/horse.png",
+          "audio_path": "gloo_audio/animals/horse.mp3",
+          "phonetic": "/hɔrs/"
+        },
+        {
+          "name": "lion",
+          "path": "gloo_assets/animals/lion.png",
+          "audio_path": "gloo_audio/animals/lion.mp3",
+          "phonetic": "/laɪən/"
+        },
+        {
+          "name": "monkey",
+          "path": "gloo_assets/animals/monkey.png",
+          "audio_path": "gloo_audio/animals/monkey.mp3",
+          "phonetic": "/ˈməŋki/"
+        },
+        {
+          "name": "mouse",
+          "path": "gloo_assets/animals/mouse.png",
+          "audio_path": "gloo_audio/animals/mouse.mp3",
+          "phonetic": "/maʊs/"
+        },
+        {
+          "name": "pig",
+          "path": "gloo_assets/animals/pig.png",
+          "audio_path": "gloo_audio/animals/pig.mp3",
+          "phonetic": "/pɪg/"
+        },
+        {
+          "name": "rabbit",
+          "path": "gloo_assets/animals/rabbit.png",
+          "audio_path": "gloo_audio/animals/rabbit.mp3",
+          "phonetic": "/ˈræbɪt/"
+        },
+        {
+          "name": "sheep",
+          "path": "gloo_assets/animals/sheep.png",
+          "audio_path": "gloo_audio/animals/sheep.mp3",
+          "phonetic": "/ʃip/"
+        },
+        {
+          "name": "tiger",
+          "path": "gloo_assets/animals/tiger.png",
+          "audio_path": "gloo_audio/animals/tiger.mp3",
+          "phonetic": "/ˈtaɪgər/"
+        },
+        {
+          "name": "turtle",
+          "path": "gloo_assets/animals/turtle.png",
+          "audio_path": "gloo_audio/animals/turtle.mp3",
+          "phonetic": "/ˈtərtəl/"
+        },
+        {
+          "name": "zebra",
+          "path": "gloo_assets/animals/zebra.png",
+          "audio_path": "gloo_audio/animals/zebra.mp3",
+          "phonetic": "/ˈzibrə/"
+        }
+      ]
+    },
+    {
+      "name": "body",
+      "category_image": "categories/body.png",
+      "assets_folder": "gloo_assets/body",
+      "assets": [
+        {
+          "name": "arm",
+          "path": "gloo_assets/body/arm.png",
+          "audio_path": "gloo_audio/body/arm.mp3",
+          "phonetic": "/ɑrm/"
+        },
+        {
+          "name": "back",
+          "path": "gloo_assets/body/back.png",
+          "audio_path": "gloo_audio/body/back.mp3",
+          "phonetic": "/bæk/"
+        },
+        {
+          "name": "ear",
+          "path": "gloo_assets/body/ear.png",
+          "audio_path": "gloo_audio/body/ear.mp3",
+          "phonetic": "/ɪr/"
+        },
+        {
+          "name": "elbow",
+          "path": "gloo_assets/body/elbow.png",
+          "audio_path": "gloo_audio/body/elbow.mp3",
+          "phonetic": "/ˈɛlˌboʊ/"
+        },
+        {
+          "name": "eye",
+          "path": "gloo_assets/body/eye.png",
+          "audio_path": "gloo_audio/body/eye.mp3",
+          "phonetic": "/aɪ/"
+        },
+        {
+          "name": "face",
+          "path": "gloo_assets/body/face.png",
+          "audio_path": "gloo_audio/body/face.mp3",
+          "phonetic": "/feɪs/"
+        },
+        {
+          "name": "finger",
+          "path": "gloo_assets/body/finger.png",
+          "audio_path": "gloo_audio/body/finger.mp3",
+          "phonetic": "/ˈfɪŋgər/"
+        },
+        {
+          "name": "foot",
+          "path": "gloo_assets/body/foot.png",
+          "audio_path": "gloo_audio/body/foot.mp3",
+          "phonetic": "/fʊt/"
+        },
+        {
+          "name": "hair",
+          "path": "gloo_assets/body/hair.png",
+          "audio_path": "gloo_audio/body/hair.mp3",
+          "phonetic": "/hɛr/"
+        },
+        {
+          "name": "hand",
+          "path": "gloo_assets/body/hand.png",
+          "audio_path": "gloo_audio/body/hand.mp3",
+          "phonetic": "/hænd/"
+        },
+        {
+          "name": "head",
+          "path": "gloo_assets/body/head.png",
+          "audio_path": "gloo_audio/body/head.mp3",
+          "phonetic": "/hɛd/"
+        },
+        {
+          "name": "knee",
+          "path": "gloo_assets/body/knee.png",
+          "audio_path": "gloo_audio/body/knee.mp3",
+          "phonetic": "/ni/"
+        },
+        {
+          "name": "leg",
+          "path": "gloo_assets/body/leg.png",
+          "audio_path": "gloo_audio/body/leg.mp3",
+          "phonetic": "/lɛg/"
+        },
+        {
+          "name": "mouth",
+          "path": "gloo_assets/body/mouth.png",
+          "audio_path": "gloo_audio/body/mouth.mp3",
+          "phonetic": "/maʊθ/"
+        },
+        {
+          "name": "nose",
+          "path": "gloo_assets/body/nose.png",
+          "audio_path": "gloo_audio/body/nose.mp3",
+          "phonetic": "/noʊz/"
+        },
+        {
+          "name": "shoulder",
+          "path": "gloo_assets/body/shoulder.png",
+          "audio_path": "gloo_audio/body/shoulder.mp3",
+          "phonetic": "/ˈʃoʊldər/"
+        },
+        {
+          "name": "toe",
+          "path": "gloo_assets/body/toe.png",
+          "audio_path": "gloo_audio/body/toe.mp3",
+          "phonetic": "/toʊ/"
+        },
+        {
+          "name": "tongue",
+          "path": "gloo_assets/body/tongue.png",
+          "audio_path": "gloo_audio/body/tongue.mp3",
+          "phonetic": "/təŋ/"
+        },
+        {
+          "name": "tooth",
+          "path": "gloo_assets/body/tooth.png",
+          "audio_path": "gloo_audio/body/tooth.mp3",
+          "phonetic": "/tuθ/"
+        },
+        {
+          "name": "tummy",
+          "path": "gloo_assets/body/tummy.png",
+          "audio_path": "gloo_audio/body/tummy.mp3",
+          "phonetic": "/ˈtəmi/"
+        }
+      ]
+    },
+    {
+      "name": "clothes",
+      "category_image": "categories/clothes.png",
+      "assets_folder": "gloo_assets/clothes",
+      "assets": [
+        {
+          "name": "belt",
+          "path": "gloo_assets/clothes/belt.png",
+          "audio_path": "gloo_audio/clothes/belt.mp3",
+          "phonetic": "/bɛlt/"
+        },
+        {
+          "name": "boot",
+          "path": "gloo_assets/clothes/boot.png",
+          "audio_path": "gloo_audio/clothes/boot.mp3",
+          "phonetic": "/but/"
+        },
+        {
+          "name": "cap",
+          "path": "gloo_assets/clothes/cap.png",
+          "audio_path": "gloo_audio/clothes/cap.mp3",
+          "phonetic": "/kæp/"
+        },
+        {
+          "name": "coat",
+          "path": "gloo_assets/clothes/coat.png",
+          "audio_path": "gloo_audio/clothes/coat.mp3",
+          "phonetic": "/koʊt/"
+        },
+        {
+          "name": "dress",
+          "path": "gloo_assets/clothes/dress.png",
+          "audio_path": "gloo_audio/clothes/dress.mp3",
+          "phonetic": "/drɛs/"
+        },
+        {
+          "name": "glove",
+          "path": "gloo_assets/clothes/glove.png",
+          "audio_path": "gloo_audio/clothes/glove.mp3",
+          "phonetic": "/gləv/"
+        },
+        {
+          "name": "hat",
+          "path": "gloo_assets/clothes/hat.png",
+          "audio_path": "gloo_audio/clothes/hat.mp3",
+          "phonetic": "/hæt/"
+        },
+        {
+          "name": "jacket",
+          "path": "gloo_assets/clothes/jacket.png",
+          "audio_path": "gloo_audio/clothes/jacket.mp3",
+          "phonetic": "/ˈʤækɪt/"
+        },
+        {
+          "name": "pants",
+          "path": "gloo_assets/clothes/pants.png",
+          "audio_path": "gloo_audio/clothes/pants.mp3",
+          "phonetic": "/pænts/"
+        },
+        {
+          "name": "pjs",
+          "path": "gloo_assets/clothes/pjs.png",
+          "audio_path": "gloo_audio/clothes/pjs.mp3",
+          "phonetic": "/pjs*/"
+        },
+        {
+          "name": "scarf",
+          "path": "gloo_assets/clothes/scarf.png",
+          "audio_path": "gloo_audio/clothes/scarf.mp3",
+          "phonetic": "/skɑrf/"
+        },
+        {
+          "name": "shirt",
+          "path": "gloo_assets/clothes/shirt.png",
+          "audio_path": "gloo_audio/clothes/shirt.mp3",
+          "phonetic": "/ʃərt/"
+        },
+        {
+          "name": "shoe",
+          "path": "gloo_assets/clothes/shoe.png",
+          "audio_path": "gloo_audio/clothes/shoe.mp3",
+          "phonetic": "/ʃu/"
+        },
+        {
+          "name": "skirt",
+          "path": "gloo_assets/clothes/skirt.png",
+          "audio_path": "gloo_audio/clothes/skirt.mp3",
+          "phonetic": "/skərt/"
+        },
+        {
+          "name": "sock",
+          "path": "gloo_assets/clothes/sock.png",
+          "audio_path": "gloo_audio/clothes/sock.mp3",
+          "phonetic": "/sɑk/"
+        },
+        {
+          "name": "suit",
+          "path": "gloo_assets/clothes/suit.png",
+          "audio_path": "gloo_audio/clothes/suit.mp3",
+          "phonetic": "/sut/"
+        },
+        {
+          "name": "sweater",
+          "path": "gloo_assets/clothes/sweater.png",
+          "audio_path": "gloo_audio/clothes/sweater.mp3",
+          "phonetic": "/sˈwɛtər/"
+        },
+        {
+          "name": "tie",
+          "path": "gloo_assets/clothes/tie.png",
+          "audio_path": "gloo_audio/clothes/tie.mp3",
+          "phonetic": "/taɪ/"
+        },
+        {
+          "name": "vest",
+          "path": "gloo_assets/clothes/vest.png",
+          "audio_path": "gloo_audio/clothes/vest.mp3",
+          "phonetic": "/vɛst/"
+        }
+      ]
+    },
+    {
+      "name": "family",
+      "category_image": "categories/family.png",
+      "assets_folder": "gloo_assets/family",
+      "assets": [
+        {
+          "name": "aunt",
+          "path": "gloo_assets/family/aunt.png",
+          "audio_path": "gloo_audio/family/aunt.mp3",
+          "phonetic": "/ɔnt/"
+        },
+        {
+          "name": "baby",
+          "path": "gloo_assets/family/baby.png",
+          "audio_path": "gloo_audio/family/baby.mp3",
+          "phonetic": "/ˈbeɪbi/"
+        },
+        {
+          "name": "boy",
+          "path": "gloo_assets/family/boy.png",
+          "audio_path": "gloo_audio/family/boy.mp3",
+          "phonetic": "/bɔɪ/"
+        },
+        {
+          "name": "brother",
+          "path": "gloo_assets/family/brother.png",
+          "audio_path": "gloo_audio/family/brother.mp3",
+          "phonetic": "/ˈbrəðər/"
+        },
+        {
+          "name": "cousin",
+          "path": "gloo_assets/family/cousin.png",
+          "audio_path": "gloo_audio/family/cousin.mp3",
+          "phonetic": "/ˈkəzən/"
+        },
+        {
+          "name": "daddy",
+          "path": "gloo_assets/family/daddy.png",
+          "audio_path": "gloo_audio/family/daddy.mp3",
+          "phonetic": "/ˈdædi/"
+        },
+        {
+          "name": "friend",
+          "path": "gloo_assets/family/friend.png",
+          "audio_path": "gloo_audio/family/friend.mp3",
+          "phonetic": "/frɛnd/"
+        },
+        {
+          "name": "girl",
+          "path": "gloo_assets/family/girl.png",
+          "audio_path": "gloo_audio/family/girl.mp3",
+          "phonetic": "/gərl/"
+        },
+        {
+          "name": "grandma",
+          "path": "gloo_assets/family/grandma.png",
+          "audio_path": "gloo_audio/family/grandma.mp3",
+          "phonetic": "/ˈgrændmɑ/"
+        },
+        {
+          "name": "grandpa",
+          "path": "gloo_assets/family/grandpa.png",
+          "audio_path": "gloo_audio/family/grandpa.mp3",
+          "phonetic": "/ˈgrændˌpɑ/"
+        },
+        {
+          "name": "man",
+          "path": "gloo_assets/family/man.png",
+          "audio_path": "gloo_audio/family/man.mp3",
+          "phonetic": "/mæn/"
+        },
+        {
+          "name": "mommy",
+          "path": "gloo_assets/family/mommy.png",
+          "audio_path": "gloo_audio/family/mommy.mp3",
+          "phonetic": "/ˈmɑmi/"
+        },
+        {
+          "name": "sister",
+          "path": "gloo_assets/family/sister.png",
+          "audio_path": "gloo_audio/family/sister.mp3",
+          "phonetic": "/ˈsɪstər/"
+        },
+        {
+          "name": "uncle",
+          "path": "gloo_assets/family/uncle.png",
+          "audio_path": "gloo_audio/family/uncle.mp3",
+          "phonetic": "/ˈəŋkəl/"
+        },
+        {
+          "name": "woman",
+          "path": "gloo_assets/family/woman.png",
+          "audio_path": "gloo_audio/family/woman.mp3",
+          "phonetic": "/ˈwʊmən/"
+        }
+      ]
+    },
+    {
+      "name": "food",
+      "category_image": "categories/food.png",
+      "assets_folder": "gloo_assets/food",
+      "assets": [
+        {
+          "name": "apple",
+          "path": "gloo_assets/food/apple.png",
+          "audio_path": "gloo_audio/food/apple.mp3",
+          "phonetic": "/ˈæpəl/"
+        },
+        {
+          "name": "banana",
+          "path": "gloo_assets/food/banana.png",
+          "audio_path": "gloo_audio/food/banana.mp3",
+          "phonetic": "/bəˈnænə/"
+        },
+        {
+          "name": "bread",
+          "path": "gloo_assets/food/bread.png",
+          "audio_path": "gloo_audio/food/bread.mp3",
+          "phonetic": "/brɛd/"
+        },
+        {
+          "name": "cake",
+          "path": "gloo_assets/food/cake.png",
+          "audio_path": "gloo_audio/food/cake.mp3",
+          "phonetic": "/keɪk/"
+        },
+        {
+          "name": "carrot",
+          "path": "gloo_assets/food/carrot.png",
+          "audio_path": "gloo_audio/food/carrot.mp3",
+          "phonetic": "/ˈkɛrət/"
+        },
+        {
+          "name": "cheese",
+          "path": "gloo_assets/food/cheese.png",
+          "audio_path": "gloo_audio/food/cheese.mp3",
+          "phonetic": "/ʧiz/"
+        },
+        {
+          "name": "chicken",
+          "path": "gloo_assets/food/chicken.png",
+          "audio_path": "gloo_audio/food/chicken.mp3",
+          "phonetic": "/ˈʧɪkən/"
+        },
+        {
+          "name": "cookie",
+          "path": "gloo_assets/food/cookie.png",
+          "audio_path": "gloo_audio/food/cookie.mp3",
+          "phonetic": "/ˈkʊki/"
+        },
+        {
+          "name": "corn",
+          "path": "gloo_assets/food/corn.png",
+          "audio_path": "gloo_audio/food/corn.mp3",
+          "phonetic": "/kɔrn/"
+        },
+        {
+          "name": "egg",
+          "path": "gloo_assets/food/egg.png",
+          "audio_path": "gloo_audio/food/egg.mp3",
+          "phonetic": "/ɛg/"
+        },
+        {
+          "name": "grapes",
+          "path": "gloo_assets/food/grapes.png",
+          "audio_path": "gloo_audio/food/grapes.mp3",
+          "phonetic": "/greɪps/"
+        },
+        {
+          "name": "juice",
+          "path": "gloo_assets/food/juice.png",
+          "audio_path": "gloo_audio/food/juice.mp3",
+          "phonetic": "/ʤus/"
+        },
+        {
+          "name": "milk",
+          "path": "gloo_assets/food/milk.png",
+          "audio_path": "gloo_audio/food/milk.mp3",
+          "phonetic": "/mɪlk/"
+        },
+        {
+          "name": "pear",
+          "path": "gloo_assets/food/pear.png",
+          "audio_path": "gloo_audio/food/pear.mp3",
+          "phonetic": "/pɛr/"
+        },
+        {
+          "name": "pizza",
+          "path": "gloo_assets/food/pizza.png",
+          "audio_path": "gloo_audio/food/pizza.mp3",
+          "phonetic": "/ˈpitsə/"
+        },
+        {
+          "name": "potato",
+          "path": "gloo_assets/food/potato.png",
+          "audio_path": "gloo_audio/food/potato.mp3",
+          "phonetic": "/pəˈteɪˌtoʊ/"
+        },
+        {
+          "name": "rice",
+          "path": "gloo_assets/food/rice.png",
+          "audio_path": "gloo_audio/food/rice.mp3",
+          "phonetic": "/raɪs/"
+        },
+        {
+          "name": "soup",
+          "path": "gloo_assets/food/soup.png",
+          "audio_path": "gloo_audio/food/soup.mp3",
+          "phonetic": "/sup/"
+        },
+        {
+          "name": "water",
+          "path": "gloo_assets/food/water.png",
+          "audio_path": "gloo_audio/food/water.mp3",
+          "phonetic": "/ˈwɔtər/"
+        },
+        {
+          "name": "yogurt",
+          "path": "gloo_assets/food/yogurt.png",
+          "audio_path": "gloo_audio/food/yogurt.mp3",
+          "phonetic": "/ˈjoʊgərt/"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "category_image": "categories/home.png",
+      "assets_folder": "gloo_assets/home",
+      "assets": [
+        {
+          "name": "bath",
+          "path": "gloo_assets/home/bath.png",
+          "audio_path": "gloo_audio/home/bath.mp3",
+          "phonetic": "/bæθ/"
+        },
+        {
+          "name": "bed",
+          "path": "gloo_assets/home/bed.png",
+          "audio_path": "gloo_audio/home/bed.mp3",
+          "phonetic": "/bɛd/"
+        },
+        {
+          "name": "bowl",
+          "path": "gloo_assets/home/bowl.png",
+          "audio_path": "gloo_audio/home/bowl.mp3",
+          "phonetic": "/boʊl/"
+        },
+        {
+          "name": "chair",
+          "path": "gloo_assets/home/chair.png",
+          "audio_path": "gloo_audio/home/chair.mp3",
+          "phonetic": "/ʧɛr/"
+        },
+        {
+          "name": "clock",
+          "path": "gloo_assets/home/clock.png",
+          "audio_path": "gloo_audio/home/clock.mp3",
+          "phonetic": "/klɑk/"
+        },
+        {
+          "name": "cup",
+          "path": "gloo_assets/home/cup.png",
+          "audio_path": "gloo_audio/home/cup.mp3",
+          "phonetic": "/kəp/"
+        },
+        {
+          "name": "door",
+          "path": "gloo_assets/home/door.png",
+          "audio_path": "gloo_audio/home/door.mp3",
+          "phonetic": "/dɔr/"
+        },
+        {
+          "name": "fan",
+          "path": "gloo_assets/home/fan.png",
+          "audio_path": "gloo_audio/home/fan.mp3",
+          "phonetic": "/fæn/"
+        },
+        {
+          "name": "key",
+          "path": "gloo_assets/home/key.png",
+          "audio_path": "gloo_audio/home/key.mp3",
+          "phonetic": "/ki/"
+        },
+        {
+          "name": "lamp",
+          "path": "gloo_assets/home/lamp.png",
+          "audio_path": "gloo_audio/home/lamp.mp3",
+          "phonetic": "/læmp/"
+        },
+        {
+          "name": "mirror",
+          "path": "gloo_assets/home/mirror.png",
+          "audio_path": "gloo_audio/home/mirror.mp3",
+          "phonetic": "/ˈmɪrər/"
+        },
+        {
+          "name": "pillow",
+          "path": "gloo_assets/home/pillow.png",
+          "audio_path": "gloo_audio/home/pillow.mp3",
+          "phonetic": "/ˈpɪloʊ/"
+        },
+        {
+          "name": "plate",
+          "path": "gloo_assets/home/plate.png",
+          "audio_path": "gloo_audio/home/plate.mp3",
+          "phonetic": "/pleɪt/"
+        },
+        {
+          "name": "pot",
+          "path": "gloo_assets/home/pot.png",
+          "audio_path": "gloo_audio/home/pot.mp3",
+          "phonetic": "/pɑt/"
+        },
+        {
+          "name": "rug",
+          "path": "gloo_assets/home/rug.png",
+          "audio_path": "gloo_audio/home/rug.mp3",
+          "phonetic": "/rəg/"
+        },
+        {
+          "name": "sofa",
+          "path": "gloo_assets/home/sofa.png",
+          "audio_path": "gloo_audio/home/sofa.mp3",
+          "phonetic": "/ˈsoʊfə/"
+        },
+        {
+          "name": "spoon",
+          "path": "gloo_assets/home/spoon.png",
+          "audio_path": "gloo_audio/home/spoon.mp3",
+          "phonetic": "/spun/"
+        },
+        {
+          "name": "table",
+          "path": "gloo_assets/home/table.png",
+          "audio_path": "gloo_audio/home/table.mp3",
+          "phonetic": "/ˈteɪbəl/"
+        },
+        {
+          "name": "tv",
+          "path": "gloo_assets/home/tv.png",
+          "audio_path": "gloo_audio/home/tv.mp3",
+          "phonetic": "/ˌtɛləˈvɪʒən/"
+        },
+        {
+          "name": "window",
+          "path": "gloo_assets/home/window.png",
+          "audio_path": "gloo_audio/home/window.mp3",
+          "phonetic": "/ˈwɪndoʊ/"
+        }
+      ]
+    },
+    {
+      "name": "outside",
+      "category_image": "categories/outside.png",
+      "assets_folder": "gloo_assets/outside",
+      "assets": [
+        {
+          "name": "bench",
+          "path": "gloo_assets/outside/bench.png",
+          "audio_path": "gloo_audio/outside/bench.mp3",
+          "phonetic": "/bɛnʧ/"
+        },
+        {
+          "name": "bush",
+          "path": "gloo_assets/outside/bush.png",
+          "audio_path": "gloo_audio/outside/bush.mp3",
+          "phonetic": "/bʊʃ/"
+        },
+        {
+          "name": "flower",
+          "path": "gloo_assets/outside/flower.png",
+          "audio_path": "gloo_audio/outside/flower.mp3",
+          "phonetic": "/flaʊər/"
+        },
+        {
+          "name": "garden",
+          "path": "gloo_assets/outside/garden.png",
+          "audio_path": "gloo_audio/outside/garden.mp3",
+          "phonetic": "/ˈgɑrdən/"
+        },
+        {
+          "name": "grass",
+          "path": "gloo_assets/outside/grass.png",
+          "audio_path": "gloo_audio/outside/grass.mp3",
+          "phonetic": "/græs/"
+        },
+        {
+          "name": "hill",
+          "path": "gloo_assets/outside/hill.png",
+          "audio_path": "gloo_audio/outside/hill.mp3",
+          "phonetic": "/hɪl/"
+        },
+        {
+          "name": "leaf",
+          "path": "gloo_assets/outside/leaf.png",
+          "audio_path": "gloo_audio/outside/leaf.mp3",
+          "phonetic": "/lif/"
+        },
+        {
+          "name": "moon",
+          "path": "gloo_assets/outside/moon.png",
+          "audio_path": "gloo_audio/outside/moon.mp3",
+          "phonetic": "/mun/"
+        },
+        {
+          "name": "park",
+          "path": "gloo_assets/outside/park.png",
+          "audio_path": "gloo_audio/outside/park.mp3",
+          "phonetic": "/pɑrk/"
+        },
+        {
+          "name": "path",
+          "path": "gloo_assets/outside/path.png",
+          "audio_path": "gloo_audio/outside/path.mp3",
+          "phonetic": "/pæθ/"
+        },
+        {
+          "name": "pond",
+          "path": "gloo_assets/outside/pond.png",
+          "audio_path": "gloo_audio/outside/pond.mp3",
+          "phonetic": "/pɑnd/"
+        },
+        {
+          "name": "river",
+          "path": "gloo_assets/outside/river.png",
+          "audio_path": "gloo_audio/outside/river.mp3",
+          "phonetic": "/ˈrɪvər/"
+        },
+        {
+          "name": "rock",
+          "path": "gloo_assets/outside/rock.png",
+          "audio_path": "gloo_audio/outside/rock.mp3",
+          "phonetic": "/rɑk/"
+        },
+        {
+          "name": "sand",
+          "path": "gloo_assets/outside/sand.png",
+          "audio_path": "gloo_audio/outside/sand.mp3",
+          "phonetic": "/sænd/"
+        },
+        {
+          "name": "shell",
+          "path": "gloo_assets/outside/shell.png",
+          "audio_path": "gloo_audio/outside/shell.mp3",
+          "phonetic": "/ʃɛl/"
+        },
+        {
+          "name": "sky",
+          "path": "gloo_assets/outside/sky.png",
+          "audio_path": "gloo_audio/outside/sky.mp3",
+          "phonetic": "/skaɪ/"
+        },
+        {
+          "name": "star",
+          "path": "gloo_assets/outside/star.png",
+          "audio_path": "gloo_audio/outside/star.mp3",
+          "phonetic": "/stɑr/"
+        },
+        {
+          "name": "stick",
+          "path": "gloo_assets/outside/stick.png",
+          "audio_path": "gloo_audio/outside/stick.mp3",
+          "phonetic": "/stɪk/"
+        },
+        {
+          "name": "sun",
+          "path": "gloo_assets/outside/sun.png",
+          "audio_path": "gloo_audio/outside/sun.mp3",
+          "phonetic": "/sən/"
+        },
+        {
+          "name": "tree",
+          "path": "gloo_assets/outside/tree.png",
+          "audio_path": "gloo_audio/outside/tree.mp3",
+          "phonetic": "/tri/"
+        }
+      ]
+    },
+    {
+      "name": "school",
+      "category_image": "categories/school.png",
+      "assets_folder": "gloo_assets/school",
+      "assets": [
+        {
+          "name": "bag",
+          "path": "gloo_assets/school/bag.png",
+          "audio_path": "gloo_audio/school/bag.mp3",
+          "phonetic": "/bæg/"
+        },
+        {
+          "name": "board",
+          "path": "gloo_assets/school/board.png",
+          "audio_path": "gloo_audio/school/board.mp3",
+          "phonetic": "/bɔrd/"
+        },
+        {
+          "name": "chalk",
+          "path": "gloo_assets/school/chalk.png",
+          "audio_path": "gloo_audio/school/chalk.mp3",
+          "phonetic": "/ʧɔk/"
+        },
+        {
+          "name": "crayons",
+          "path": "gloo_assets/school/crayons.png",
+          "audio_path": "gloo_audio/school/crayons.mp3",
+          "phonetic": "/kreɪɑnz/"
+        },
+        {
+          "name": "desk",
+          "path": "gloo_assets/school/desk.png",
+          "audio_path": "gloo_audio/school/desk.mp3",
+          "phonetic": "/dɛsk/"
+        },
+        {
+          "name": "eraser",
+          "path": "gloo_assets/school/eraser.png",
+          "audio_path": "gloo_audio/school/eraser.mp3",
+          "phonetic": "/ɪˈreɪsər/"
+        },
+        {
+          "name": "folder",
+          "path": "gloo_assets/school/folder.png",
+          "audio_path": "gloo_audio/school/folder.mp3",
+          "phonetic": "/ˈfoʊldər/"
+        },
+        {
+          "name": "glue",
+          "path": "gloo_assets/school/glue.png",
+          "audio_path": "gloo_audio/school/glue.mp3",
+          "phonetic": "/glu/"
+        },
+        {
+          "name": "library",
+          "path": "gloo_assets/school/library.png",
+          "audio_path": "gloo_audio/school/library.mp3",
+          "phonetic": "/ˈlaɪbrɛˌri/"
+        },
+        {
+          "name": "map",
+          "path": "gloo_assets/school/map.png",
+          "audio_path": "gloo_audio/school/map.mp3",
+          "phonetic": "/mæp/"
+        },
+        {
+          "name": "marker",
+          "path": "gloo_assets/school/marker.png",
+          "audio_path": "gloo_audio/school/marker.mp3",
+          "phonetic": "/ˈmɑrkər/"
+        },
+        {
+          "name": "notebook",
+          "path": "gloo_assets/school/notebook.png",
+          "audio_path": "gloo_audio/school/notebook.mp3",
+          "phonetic": "/ˈnoʊtˌbʊk/"
+        },
+        {
+          "name": "paint",
+          "path": "gloo_assets/school/paint.png",
+          "audio_path": "gloo_audio/school/paint.mp3",
+          "phonetic": "/peɪnt/"
+        },
+        {
+          "name": "paper",
+          "path": "gloo_assets/school/paper.png",
+          "audio_path": "gloo_audio/school/paper.mp3",
+          "phonetic": "/ˈpeɪpər/"
+        },
+        {
+          "name": "pen",
+          "path": "gloo_assets/school/pen.png",
+          "audio_path": "gloo_audio/school/pen.mp3",
+          "phonetic": "/pɛn/"
+        },
+        {
+          "name": "pencil",
+          "path": "gloo_assets/school/pencil.png",
+          "audio_path": "gloo_audio/school/pencil.mp3",
+          "phonetic": "/ˈpɛnsəl/"
+        },
+        {
+          "name": "ruler",
+          "path": "gloo_assets/school/ruler.png",
+          "audio_path": "gloo_audio/school/ruler.mp3",
+          "phonetic": "/ˈrulər/"
+        },
+        {
+          "name": "scissors",
+          "path": "gloo_assets/school/scissors.png",
+          "audio_path": "gloo_audio/school/scissors.mp3",
+          "phonetic": "/ˈsɪzərz/"
+        },
+        {
+          "name": "tape",
+          "path": "gloo_assets/school/tape.png",
+          "audio_path": "gloo_audio/school/tape.mp3",
+          "phonetic": "/teɪp/"
+        },
+        {
+          "name": "teacher",
+          "path": "gloo_assets/school/teacher.png",
+          "audio_path": "gloo_audio/school/teacher.mp3",
+          "phonetic": "/ˈtiʧər/"
+        }
+      ]
+    },
+    {
+      "name": "toys",
+      "category_image": "categories/toys.png",
+      "assets_folder": "gloo_assets/toys",
+      "assets": [
+        {
+          "name": "ball",
+          "path": "gloo_assets/toys/ball.png",
+          "audio_path": "gloo_audio/toys/ball.mp3",
+          "phonetic": "/bɔl/"
+        },
+        {
+          "name": "balloon",
+          "path": "gloo_assets/toys/balloon.png",
+          "audio_path": "gloo_audio/toys/balloon.mp3",
+          "phonetic": "/bəˈlun/"
+        },
+        {
+          "name": "bat",
+          "path": "gloo_assets/toys/bat.png",
+          "audio_path": "gloo_audio/toys/bat.mp3",
+          "phonetic": "/bæt/"
+        },
+        {
+          "name": "bike",
+          "path": "gloo_assets/toys/bike.png",
+          "audio_path": "gloo_audio/toys/bike.mp3",
+          "phonetic": "/baɪk/"
+        },
+        {
+          "name": "block",
+          "path": "gloo_assets/toys/block.png",
+          "audio_path": "gloo_audio/toys/block.mp3",
+          "phonetic": "/blɑk/"
+        },
+        {
+          "name": "boat",
+          "path": "gloo_assets/toys/boat.png",
+          "audio_path": "gloo_audio/toys/boat.mp3",
+          "phonetic": "/boʊt/"
+        },
+        {
+          "name": "book",
+          "path": "gloo_assets/toys/book.png",
+          "audio_path": "gloo_audio/toys/book.mp3",
+          "phonetic": "/bʊk/"
+        },
+        {
+          "name": "car",
+          "path": "gloo_assets/toys/car.png",
+          "audio_path": "gloo_audio/toys/car.mp3",
+          "phonetic": "/kɑr/"
+        },
+        {
+          "name": "doll",
+          "path": "gloo_assets/toys/doll.png",
+          "audio_path": "gloo_audio/toys/doll.mp3",
+          "phonetic": "/dɑl/"
+        },
+        {
+          "name": "drum",
+          "path": "gloo_assets/toys/drum.png",
+          "audio_path": "gloo_audio/toys/drum.mp3",
+          "phonetic": "/drəm/"
+        },
+        {
+          "name": "kite",
+          "path": "gloo_assets/toys/kite.png",
+          "audio_path": "gloo_audio/toys/kite.mp3",
+          "phonetic": "/kaɪt/"
+        },
+        {
+          "name": "plane",
+          "path": "gloo_assets/toys/plane.png",
+          "audio_path": "gloo_audio/toys/plane.mp3",
+          "phonetic": "/pleɪn/"
+        },
+        {
+          "name": "puzzle",
+          "path": "gloo_assets/toys/puzzle.png",
+          "audio_path": "gloo_audio/toys/puzzle.mp3",
+          "phonetic": "/ˈpəzəl/"
+        },
+        {
+          "name": "robot",
+          "path": "gloo_assets/toys/robot.png",
+          "audio_path": "gloo_audio/toys/robot.mp3",
+          "phonetic": "/ˈroʊˌbət/"
+        },
+        {
+          "name": "slide",
+          "path": "gloo_assets/toys/slide.png",
+          "audio_path": "gloo_audio/toys/slide.mp3",
+          "phonetic": "/slaɪd/"
+        },
+        {
+          "name": "swing",
+          "path": "gloo_assets/toys/swing.png",
+          "audio_path": "gloo_audio/toys/swing.mp3",
+          "phonetic": "/swɪŋ/"
+        },
+        {
+          "name": "teddy",
+          "path": "gloo_assets/toys/teddy.png",
+          "audio_path": "gloo_audio/toys/teddy.mp3",
+          "phonetic": "/ˈtɛdi/"
+        },
+        {
+          "name": "train",
+          "path": "gloo_assets/toys/train.png",
+          "audio_path": "gloo_audio/toys/train.mp3",
+          "phonetic": "/treɪn/"
+        },
+        {
+          "name": "trike",
+          "path": "gloo_assets/toys/trike.png",
+          "audio_path": "gloo_audio/toys/trike.mp3",
+          "phonetic": "/trike*/"
+        },
+        {
+          "name": "yo-yo",
+          "path": "gloo_assets/toys/yo-yo.png",
+          "audio_path": "gloo_audio/toys/yo-yo.mp3",
+          "phonetic": "/yo-yo*/"
+        }
+      ]
+    },
+    {
+      "name": "vehicles",
+      "category_image": "categories/vehicles.png",
+      "assets_folder": "gloo_assets/vehicles",
+      "assets": [
+        {
+          "name": "ambulance",
+          "path": "gloo_assets/vehicles/ambulance.png",
+          "audio_path": "gloo_audio/vehicles/ambulance.mp3",
+          "phonetic": "/ˈæmbjələns/"
+        },
+        {
+          "name": "balloon",
+          "path": "gloo_assets/vehicles/balloon.png",
+          "audio_path": "gloo_audio/vehicles/balloon.mp3",
+          "phonetic": "/bəˈlun/"
+        },
+        {
+          "name": "bike",
+          "path": "gloo_assets/vehicles/bike.png",
+          "audio_path": "gloo_audio/vehicles/bike.mp3",
+          "phonetic": "/baɪk/"
+        },
+        {
+          "name": "boat",
+          "path": "gloo_assets/vehicles/boat.png",
+          "audio_path": "gloo_audio/vehicles/boat.mp3",
+          "phonetic": "/boʊt/"
+        },
+        {
+          "name": "bus",
+          "path": "gloo_assets/vehicles/bus.png",
+          "audio_path": "gloo_audio/vehicles/bus.mp3",
+          "phonetic": "/bəs/"
+        },
+        {
+          "name": "car",
+          "path": "gloo_assets/vehicles/car.png",
+          "audio_path": "gloo_audio/vehicles/car.mp3",
+          "phonetic": "/kɑr/"
+        },
+        {
+          "name": "fire truck",
+          "path": "gloo_assets/vehicles/fire truck.png",
+          "audio_path": "gloo_audio/vehicles/fire truck.mp3",
+          "phonetic": "/faɪər trək/"
+        },
+        {
+          "name": "helicopter",
+          "path": "gloo_assets/vehicles/helicopter.png",
+          "audio_path": "gloo_audio/vehicles/helicopter.mp3",
+          "phonetic": "/ˈhɛlɪˌkɑptər/"
+        },
+        {
+          "name": "jeep",
+          "path": "gloo_assets/vehicles/jeep.png",
+          "audio_path": "gloo_audio/vehicles/jeep.mp3",
+          "phonetic": "/ʤip/"
+        },
+        {
+          "name": "motorcycle",
+          "path": "gloo_assets/vehicles/motorcycle.png",
+          "audio_path": "gloo_audio/vehicles/motorcycle.mp3",
+          "phonetic": "/ˈmoʊtərˌsaɪkəl/"
+        },
+        {
+          "name": "plane",
+          "path": "gloo_assets/vehicles/plane.png",
+          "audio_path": "gloo_audio/vehicles/plane.mp3",
+          "phonetic": "/pleɪn/"
+        },
+        {
+          "name": "rocket",
+          "path": "gloo_assets/vehicles/rocket.png",
+          "audio_path": "gloo_audio/vehicles/rocket.mp3",
+          "phonetic": "/ˈrɑkət/"
+        },
+        {
+          "name": "scooter",
+          "path": "gloo_assets/vehicles/scooter.png",
+          "audio_path": "gloo_audio/vehicles/scooter.mp3",
+          "phonetic": "/ˈskutər/"
+        },
+        {
+          "name": "ship",
+          "path": "gloo_assets/vehicles/ship.png",
+          "audio_path": "gloo_audio/vehicles/ship.mp3",
+          "phonetic": "/ʃɪp/"
+        },
+        {
+          "name": "subway",
+          "path": "gloo_assets/vehicles/subway.png",
+          "audio_path": "gloo_audio/vehicles/subway.mp3",
+          "phonetic": "/ˈsəbˌweɪ/"
+        },
+        {
+          "name": "taxi",
+          "path": "gloo_assets/vehicles/taxi.png",
+          "audio_path": "gloo_audio/vehicles/taxi.mp3",
+          "phonetic": "/ˈtæksi/"
+        },
+        {
+          "name": "tractor",
+          "path": "gloo_assets/vehicles/tractor.png",
+          "audio_path": "gloo_audio/vehicles/tractor.mp3",
+          "phonetic": "/ˈtræktər/"
+        },
+        {
+          "name": "train",
+          "path": "gloo_assets/vehicles/train.png",
+          "audio_path": "gloo_audio/vehicles/train.mp3",
+          "phonetic": "/treɪn/"
+        },
+        {
+          "name": "truck",
+          "path": "gloo_assets/vehicles/truck.png",
+          "audio_path": "gloo_audio/vehicles/truck.mp3",
+          "phonetic": "/trək/"
+        },
+        {
+          "name": "van",
+          "path": "gloo_assets/vehicles/van.png",
+          "audio_path": "gloo_audio/vehicles/van.mp3",
+          "phonetic": "/væn/"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_categories": 13,
+    "categories_with_assets": 13,
+    "empty_categories": 0,
+    "total_assets": 254
+  }
+}

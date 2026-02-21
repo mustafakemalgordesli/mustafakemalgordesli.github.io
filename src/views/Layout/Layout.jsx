@@ -22,58 +22,71 @@ const Layouts = () => {
 
   let location = useLocation();
 
-  const [activeMenuItem, setActiveMenuItem] = useState(location.pathname + location.hash);
+  const [activeMenuItem, setActiveMenuItem] = useState(
+    location.pathname + location.hash,
+  );
 
   useEffect(() => {
-    console.log(location)
-    const resumeHashs = [ "#education" , "#experience", "skills"]
-    let menuText = location.pathname + location.hash 
-    if(resumeHashs.includes(location.hash)) {
-       menuText = location.pathname + "#resume" 
-    } 
+    console.log(location);
+    const resumeHashs = ["#education", "#experience", "skills"];
+    let menuText = location.pathname + location.hash;
+    if (resumeHashs.includes(location.hash)) {
+      menuText = location.pathname + "#resume";
+    }
     setActiveMenuItem(menuText);
   }, [location]);
 
   const handleScroll = () => {
-    const homeElement = document.getElementById('home');
-    const aboutElement = document.getElementById('about');
-    const contactElement = document.getElementById('contact');
-    const resumeElement = document.getElementById('resume');
-    const projectsElement = document.getElementById('projects');
+    const homeElement = document.getElementById("home");
+    const aboutElement = document.getElementById("about");
+    const contactElement = document.getElementById("contact");
+    const resumeElement = document.getElementById("resume");
+    const projectsElement = document.getElementById("projects");
 
-
-    if (homeElement && window.pageYOffset >= homeElement.offsetTop && window.pageYOffset < aboutElement.offsetTop) {
+    if (
+      homeElement &&
+      window.pageYOffset >= homeElement.offsetTop &&
+      window.pageYOffset < aboutElement.offsetTop
+    ) {
       setActiveMenuItem("/");
-    }
-    else if (aboutElement && window.pageYOffset >= aboutElement.offsetTop && window.pageYOffset < resumeElement.offsetTop) {
-      setActiveMenuItem('/#about');
-    } 
-    else if(resumeElement && window.pageYOffset >= resumeElement.offsetTop && window.pageYOffset < projectsElement.offsetTop) {
+    } else if (
+      aboutElement &&
+      window.pageYOffset >= aboutElement.offsetTop &&
+      window.pageYOffset < resumeElement.offsetTop
+    ) {
+      setActiveMenuItem("/#about");
+    } else if (
+      resumeElement &&
+      window.pageYOffset >= resumeElement.offsetTop &&
+      window.pageYOffset < projectsElement.offsetTop
+    ) {
       setActiveMenuItem("/#resume");
-    }
-    else if(projectsElement && window.pageYOffset >= projectsElement.offsetTop && window.pageYOffset < contactElement.offsetTop) {
+    } else if (
+      projectsElement &&
+      window.pageYOffset >= projectsElement.offsetTop &&
+      window.pageYOffset < contactElement.offsetTop
+    ) {
       setActiveMenuItem("/#projects");
-    }
-    else if(contactElement && window.pageYOffset >= contactElement.offsetTop) {
+    } else if (
+      contactElement &&
+      window.pageYOffset >= contactElement.offsetTop
+    ) {
       setActiveMenuItem("/#contact");
     }
   };
 
-
-
   return (
-    <Layout style={{ minHeight: "100vh"}}>
-
+    <Layout style={{ minHeight: "100vh" }}>
       <Sider
         collapsible
         collapsed={collapsed}
         onCollapse={(value) => setCollapsed(value)}
-        style={{ 
-          overflow: 'auto',
+        style={{
+          overflow: "auto",
           height: "100%",
-          position: 'fixed',
+          position: "fixed",
           left: 0,
-      }}
+        }}
       >
         <a href="#" rel="noreferrer">
           <div
@@ -174,7 +187,7 @@ const Layouts = () => {
             key="/#about"
             icon={<UserOutlined style={{ fontSize: 15 }} />}
           >
-            <a  href="#about" rel="noreferrer" style={{ fontSize: 15 }}>
+            <a href="#about" rel="noreferrer" style={{ fontSize: 15 }}>
               About
             </a>
           </Menu.Item>
@@ -215,9 +228,24 @@ const Layouts = () => {
             <Outlet />
           </div>
         </Content>
-        <Footer style={{ backgroundColor: "#f4f4f4", border: "1px solid grey", textAlign: "center", maxHeight: 50, display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 50px" }}>
-          <span>©{new Date().getFullYear()} Created by Mustafa Kemal Gordesli</span>
-          <a href="#/privacy" style={{ color: "#1890ff" }}>Privacy Policy</a>
+        <Footer
+          style={{
+            backgroundColor: "#f4f4f4",
+            border: "1px solid grey",
+            textAlign: "center",
+            maxHeight: 50,
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            padding: "0 50px",
+          }}
+        >
+          <span>
+            ©{new Date().getFullYear()} Created by Mustafa Kemal Gordesli
+          </span>
+          <a href="#/privacy" style={{ color: "#1890ff" }}>
+            Privacy Policy
+          </a>
         </Footer>
       </Layout>
     </Layout>
