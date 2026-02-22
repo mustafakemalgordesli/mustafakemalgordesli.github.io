@@ -1,3 +1,6 @@
+@use "variable" as *;
+@use "mixins" as *;
+
 .cta-btn {
   display: inline-block;
   position: relative;

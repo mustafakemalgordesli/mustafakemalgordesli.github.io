@@ -1,3 +1,6 @@
+@use "variable" as *;
+@use "mixins" as *;
+
 #projects {
   background-color: "#f4f4f4";
   color: $dark-blue-text;

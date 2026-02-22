@@ -6,6 +6,7 @@ import Contact from "./views/Contact/Contact";
 import Projects from "./views/Projects/Projects";
 import Resume from "./views/Resume/Resume";
 import Privacy from "./views/Privacy/Privacy";
+import WordyPuffPrivacy from "./views/Privacy/WordyPuffPrivacy";
 import { HashRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
               }
             />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/wordypuff-privacy" element={<WordyPuffPrivacy />} />
           </Route>
         </Routes>
       </HashRouter>
